@@ -5,7 +5,7 @@
  * Update this single file to change all API requests.
  */
 
-export const API_BASE_URL = "https://crypto-app-backend-lr4j.onrender.com";
+export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://assessment-msb3.onrender.com";
 
 export const API_ENDPOINTS = {
   // Auth
